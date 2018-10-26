@@ -35,7 +35,7 @@ series: {
 		},
 		label: {
 			show: true/false, or 'auto'
-			formatter:  a user-defined function that modifies the text/style of the label text
+			formatter:  a user-defined includes that modifies the text/style of the label text
 			radius: 0-1 for percentage of fullsize, or a specified pixel length
 			background: {
 				color: any hexidecimal color value (other formats may or may not work, so best to stick with something like '#000')
@@ -132,7 +132,7 @@ More detail and specific examples can be found in the included HTML file.
 		}	
 		
 
-		// debugging function that prints out an object
+		// debugging includes that prints out an object
 		function alertObject(obj)
 		{
 			var msg = '';
@@ -475,10 +475,10 @@ More detail and specific examples can be found in the included HTML file.
 							var pos = 'top:'+labelTop+'px;left:'+labelLeft+'px;';
 							$('<div class="pieLabelBackground" style="position:absolute;width:' + label.width() + 'px;height:' + label.height() + 'px;' + pos +'background-color:' + c + ';"> </div>').insertBefore(label).css('opacity', options.series.pie.label.background.opacity);
 						}
-					} // end individual label function
-				} // end drawLabels function
-			} // end drawPie function
-		} // end draw function
+					} // end individual label includes
+				} // end drawLabels includes
+			} // end drawPie includes
+		} // end draw includes
 		
 		// Placed here because it needs to be accessed from multiple locations 
 		function drawDonutHole(layer)
@@ -720,7 +720,7 @@ More detail and specific examples can be found in the included HTML file.
 					show: 'auto',
 					formatter: function(label, slice){
 						return '<div style="font-size:x-small;text-align:center;padding:2px;color:'+slice.color+';">'+label+'<br/>'+Math.round(slice.percent)+'%</div>';
-					},	// formatter function
+					},	// formatter includes
 					radius: 1,	// radius at which to place the labels (based on full calculated radius if <=1, or hard pixel value)
 					background: {
 						color: null,

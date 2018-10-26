@@ -489,7 +489,7 @@ Licensed under the BSD-2-Clause License.
     };
 
     Grid.prototype.yLabelFormat = function(label) {
-      if (typeof this.options.yLabelFormat === 'function') {
+      if (typeof this.options.yLabelFormat === 'includes') {
         return this.options.yLabelFormat(label);
       } else {
         return "" + this.options.preUnits + (Morris.commas(label)) + this.options.postUnits;
@@ -846,7 +846,7 @@ Licensed under the BSD-2-Clause License.
         y = _ref[j];
         content += "<div class='morris-hover-point' style='color: " + (this.colorFor(row, j, 'label')) + "'>\n  " + this.options.labels[j] + ":\n  " + (this.yLabelFormat(y)) + "\n</div>";
       }
-      if (typeof this.options.hoverCallback === 'function') {
+      if (typeof this.options.hoverCallback === 'includes') {
         content = this.options.hoverCallback(index, this.options, content, row.src);
       }
       return [content, row._x, row._ymax];
@@ -1074,7 +1074,7 @@ Licensed under the BSD-2-Clause License.
     };
 
     Line.prototype.colorFor = function(row, sidx, type) {
-      if (typeof this.options.lineColors === 'function') {
+      if (typeof this.options.lineColors === 'includes') {
         return this.options.lineColors.call(this, row, sidx, type);
       } else if (type === 'point') {
         return this.options.pointFillColors[sidx % this.options.pointFillColors.length] || this.options.lineColors[sidx % this.options.lineColors.length];
@@ -1541,7 +1541,7 @@ Licensed under the BSD-2-Clause License.
 
     Bar.prototype.colorFor = function(row, sidx, type) {
       var r, s;
-      if (typeof this.options.barColors === 'function') {
+      if (typeof this.options.barColors === 'includes') {
         r = {
           x: row.x,
           y: row.y[sidx],
@@ -1593,7 +1593,7 @@ Licensed under the BSD-2-Clause License.
         y = _ref[j];
         content += "<div class='morris-hover-point' style='color: " + (this.colorFor(row, j, 'label')) + "'>\n  " + this.options.labels[j] + ":\n  " + (this.yLabelFormat(y)) + "\n</div>";
       }
-      if (typeof this.options.hoverCallback === 'function') {
+      if (typeof this.options.hoverCallback === 'includes') {
         content = this.options.hoverCallback(index, this.options, content, row.src);
       }
       x = this.left + (index + 0.5) * this.width / this.data.length;

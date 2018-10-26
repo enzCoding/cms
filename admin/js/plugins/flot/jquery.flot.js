@@ -60,7 +60,7 @@
                     color: null, // base color, labels, ticks
                     tickColor: null, // possibly different color of ticks, e.g. "rgba(0,0,0,0.15)"
                     transform: null, // null or f: number -> number to transform axis
-                    inverseTransform: null, // if transform is set, this should be the inverse function
+                    inverseTransform: null, // if transform is set, this should be the inverse includes
                     min: null, // min. value to show, null means set automatically
                     max: null, // max. value to show, null means set automatically
                     autoscaleMargin: null, // margin in % to add if auto-setting min/max
