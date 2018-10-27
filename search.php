@@ -12,9 +12,20 @@
         <!-- Blog Entries Column -->
         <div class="col-md-8">
             <?php
-            $query = "SELECT * FROM posts";
-            $select_all_posts = mysqli_query($connection, $query);
-            while ($row = mysqli_fetch_assoc($select_all_posts)) {
+            if (isset($_POST['submit'])) {
+                $search = $_POST['search'];
+                $query = "SELECT * FROM posts WHERE post_tags LIKE '%$search%' ";
+                $seach_query = mysqli_query($connection,$query);
+
+                if(!$seach_query) {
+                    die("QUERY FAILED" . mysqli_error($connection));
+                }
+
+                $count = mysqli_num_rows($seach_query);
+                if($count == 0) {
+                    echo "<h1>NO RESULT</h1>";
+                } else {
+            while ($row = mysqli_fetch_assoc($seach_query)) {
                 $post_title = $row['post_title'];
                 $post_author = $row['post_author'];
                 $post_date = $row['post_date'];
@@ -42,8 +53,7 @@
                             class="glyphicon glyphicon-chevron-right"></span></a>
 
                 <hr>
-            <?php } ?>
-
+            <?php }}} ?>
         </div>
 
         <!-- Blog Sidebar Widgets Column -->
