@@ -40,25 +40,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="3" />
-          <entry key="php" value="29" />
+          <entry key="php" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="3" />
-          <entry key="PHP" value="29" />
+          <entry key="PHP" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="29" />
-          <entry key="php" value="1847" />
+          <entry key="php" value="1994" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="31" />
-          <entry key="PHP" value="1844" />
+          <entry key="PHP" value="1991" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
@@ -66,7 +66,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
@@ -75,20 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/includes/navigation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="772">
-              <caret line="157" column="6" selection-start-line="157" selection-start-column="6" selection-end-line="157" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/includes/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="634">
+              <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -99,6 +90,7 @@
     <findStrings>
       <find>top</find>
       <find>top</find>
+      <find>Dropdown Item</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,8 +113,8 @@
         <option value="$PROJECT_DIR$/admin/includes/header.php" />
         <option value="$PROJECT_DIR$/includes/navigation.php" />
         <option value="$PROJECT_DIR$/admin/includes/footer.php" />
-        <option value="$PROJECT_DIR$/admin/includes/navigation.php" />
         <option value="$PROJECT_DIR$/admin/index.php" />
+        <option value="$PROJECT_DIR$/admin/includes/navigation.php" />
       </list>
     </option>
   </component>
@@ -136,7 +128,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="431" />
     <option name="y" value="38" />
-    <option name="width" value="1400" />
+    <option name="width" value="1494" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -226,18 +218,18 @@
       <workItem from="1540623110377" duration="1108000" />
       <workItem from="1540625460383" duration="6602000" />
       <workItem from="1540694816418" duration="560000" />
-      <workItem from="1540695955782" duration="2197000" />
+      <workItem from="1540695955782" duration="3768000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19536000" />
+    <option name="totallyTimeSpent" value="21107000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="431" y="38" width="1400" height="1000" extended-state="0" />
+    <frame x="431" y="38" width="1494" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15447761" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14435147" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -344,17 +336,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/navigation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
-          <caret line="157" column="6" selection-start-line="157" selection-start-column="6" selection-end-line="157" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/navigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
         </state>
       </provider>
     </entry>
