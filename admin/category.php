@@ -30,6 +30,11 @@
                     </div>
                         <!-- Display Category Table -->
                         <div class="col-xs-6">
+                            <?php
+                                $query = "SELECT * FROM category";
+                                $select_category_admin = mysqli_query($connection,$query);
+
+                            ?>
                             <table class="table table-bordered table-hover">
                                 <thead>
                                 <tr>
@@ -38,10 +43,17 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>Twice</td>
-                                    <td>Jihyo</td>
-                                </tr>
+
+                                <?php
+                                while ($row = mysqli_fetch_assoc($select_category_admin)){
+                                    $cat_id = $row['cat_id'];
+                                    $cat_title = $row['cat_title'];
+                                    echo "<tr>";
+                                    echo "<td>{$cat_id}</td>";
+                                    echo "<td>{$cat_title}</td>";
+                                    echo "</tr>";
+                                }
+                                ?>
                                 </tbody>
                             </table>
                         </div>
