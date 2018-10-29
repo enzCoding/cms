@@ -17,11 +17,28 @@
                         <small>Subheading</small>
                     </h1>
                     <div class="col-xs-6">
+                        <?php
+                            if(isset($_POST['submit'])){
+                                $cat_title = $_POST['cat_title'];
+                                //Check form empty and insert category
+                                if($cat_title == "" || empty($cat_title)) {
+                                    echo "This field should not be empty";
+                                } else {
+                                    $query = "INSERT INTO category(cat_title) ";
+                                    $query .= "VALUE('{$cat_title}') ";
+                                    $create_category = mysqli_query($connection,$query);
+                                    if(!$create_category){
+                                        die("QUERY FAILED" . mysqli_error($connection));
+                                    }
+                                }
+                            }
+                        ?>
                         <!-- Add Cateogry Form -->
-                        <form action="">
+                        <form action="" method="post">
                             <div class="form-group">
-                                <label for="cat_title">Add Category</label>
+                                <label for="cat-title">Add Category
                                 <input class="form-control" type="text" name="cat_title">
+                                </label>
                             </div>
                             <div class="form-group">
                                 <input class="btn btn-primary" type="submit" name="submit" value="Add Category">
@@ -33,7 +50,6 @@
                             <?php
                                 $query = "SELECT * FROM category";
                                 $select_category_admin = mysqli_query($connection,$query);
-
                             ?>
                             <table class="table table-bordered table-hover">
                                 <thead>
