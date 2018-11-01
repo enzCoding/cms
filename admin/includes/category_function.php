@@ -1,4 +1,3 @@
-
 <?php
     function insert_category() {
         global $connection;
@@ -43,19 +42,4 @@
             header("Location: category.php");
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-?>
+    ?>
