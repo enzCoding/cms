@@ -34,32 +34,32 @@
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="3" />
-          <entry key="php" value="62" />
+          <entry key="php" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="3" />
-          <entry key="PHP" value="62" />
+          <entry key="PHP" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="29" />
-          <entry key="php" value="5403" />
+          <entry key="php" value="5605" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="33" />
-          <entry key="PHP" value="5398" />
+          <entry key="PHP" value="5600" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
@@ -67,20 +67,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/includes/function.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/posts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="287">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/posts.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/includes/view_all_posts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
+            <state relative-caret-position="1219">
+              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -118,9 +118,10 @@
         <option value="$PROJECT_DIR$/includes/header.php" />
         <option value="$PROJECT_DIR$/admin/includes/edit_categories.php" />
         <option value="$PROJECT_DIR$/admin/includes/admin_header.php" />
-        <option value="$PROJECT_DIR$/admin/includes/function.php" />
         <option value="$PROJECT_DIR$/admin/includes/admin_navigation.php" />
         <option value="$PROJECT_DIR$/admin/category.php" />
+        <option value="$PROJECT_DIR$/admin/includes/function.php" />
+        <option value="$PROJECT_DIR$/admin/includes/view_all_posts.php" />
         <option value="$PROJECT_DIR$/admin/posts.php" />
       </list>
     </option>
@@ -204,19 +205,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.php">
+  <component name="RunManager" selected="JavaScript Debug.posts.php">
     <configuration name="category.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CMS/admin/category.php">
       <method v="2" />
     </configuration>
     <configuration name="index.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CMS/admin/index.php">
       <method v="2" />
     </configuration>
+    <configuration name="posts.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CMS/admin/posts.php">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="JavaScript Debug.category.php" />
       <item itemvalue="JavaScript Debug.index.php" />
+      <item itemvalue="JavaScript Debug.posts.php" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.posts.php" />
         <item itemvalue="JavaScript Debug.index.php" />
         <item itemvalue="JavaScript Debug.category.php" />
       </list>
@@ -244,29 +250,31 @@
       <workItem from="1540779247187" duration="7289000" />
       <workItem from="1540798504156" duration="2212000" />
       <workItem from="1540953722408" duration="5736000" />
+      <workItem from="1541040687961" duration="1026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37162000" />
+    <option name="totallyTimeSpent" value="38188000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="431" y="38" width="1494" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15271966" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15481171" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995381" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3995381" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32101616" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32101616" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -353,13 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/edit_categories.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="89" selection-start-line="19" selection-start-column="89" selection-end-line="19" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_8.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -395,17 +396,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/function.php">
+    <entry file="file://$PROJECT_DIR$/admin/includes/edit_categories.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="161">
+          <caret line="19" column="89" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/category_function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/view_all_posts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1219">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/posts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
+        <state relative-caret-position="287">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
         </state>
       </provider>
     </entry>
