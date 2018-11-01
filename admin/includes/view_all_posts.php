@@ -13,6 +13,17 @@
     </tr>
     </thead>
     <tbody>
+
+    <?php
+        if(isset($_GET['delete'])) {
+            $post_id = $_GET['delete'];
+            $query = "DELETE from posts WHERE post_id = {$post_id} ";
+            $delete_posts_query = mysqli_query($connection,$query);
+            header("Location: posts.php");
+            checkQuery($delete_posts_query);
+        }
+    ?>
+
     <?php
     $query = "SELECT * FROM posts";
     $select_posts_admin = mysqli_query($connection,$query);
@@ -37,18 +48,10 @@
         echo "<td>{$post_tags}</td>";
         echo "<td>{$post_comment_count}</td>";
         echo "<td>{$post_date}</td>";
+        echo "<td><a href='posts.php?delete={$post_id}'>DELETE</a></td>";
         echo "</tr>";
     }
     ?>
-    <td>ID</td>
-    <td>Author</td>
-    <td>Title</td>
-    <td>Category</td>
-    <td>Status</td>
-    <td>Image</td>
-    <td>Tags</td>
-    <td>Comment</td>
-    <td>Date</td>
 
     </tbody>
 </table>
