@@ -1,6 +1,7 @@
 <?php ob_start()?>
 <?php include "../includes/db.php"?>
 <?php include "category_function.php" ?>
+<?php include "function.php"?>
 <!DOCTYPE html>
 <html lang="en">
 
