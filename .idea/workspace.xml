@@ -43,7 +43,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="3" />
-          <entry key="php" value="104" />
+          <entry key="php" value="105" />
           <entry key="png" value="1" />
         </counts>
       </usages-collector>
@@ -51,21 +51,21 @@
         <counts>
           <entry key="HTML" value="3" />
           <entry key="Image" value="1" />
-          <entry key="PHP" value="104" />
+          <entry key="PHP" value="105" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="JavaScript Console" value="18" />
           <entry key="html" value="29" />
-          <entry key="php" value="8388" />
+          <entry key="php" value="8691" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="35" />
           <entry key="JavaScript" value="18" />
-          <entry key="PHP" value="8381" />
+          <entry key="PHP" value="8684" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
@@ -82,20 +82,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/includes/edit_post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="36" selection-start-line="36" selection-end-line="36" selection-end-column="74" />
+            <state relative-caret-position="874">
+              <caret line="38" column="77" selection-start-line="38" selection-start-column="77" selection-end-line="38" selection-end-column="77" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Download/Compressed/entire-cms/cms/admin/includes/edit_post.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/includes/view_all_posts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="30" column="38" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="38" />
+            <state relative-caret-position="542">
+              <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -139,8 +139,8 @@
         <option value="$PROJECT_DIR$/admin/includes/admin_navigation.php" />
         <option value="$PROJECT_DIR$/admin/includes/add_post.php" />
         <option value="$PROJECT_DIR$/admin/posts.php" />
-        <option value="$PROJECT_DIR$/admin/includes/view_all_posts.php" />
         <option value="$PROJECT_DIR$/admin/includes/edit_post.php" />
+        <option value="$PROJECT_DIR$/admin/includes/view_all_posts.php" />
       </list>
     </option>
   </component>
@@ -287,18 +287,18 @@
       <workItem from="1541040687961" duration="6161000" />
       <workItem from="1541063067832" duration="3021000" />
       <workItem from="1541120584520" duration="8038000" />
-      <workItem from="1541128723790" duration="237000" />
+      <workItem from="1541128723790" duration="1165000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54636000" />
+    <option name="totallyTimeSpent" value="55547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="149" y="19" width="1654" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13919415" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14303638" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -443,13 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/view_all_posts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="27" selection-start-line="27" selection-end-line="38" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/add_post.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -487,8 +480,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/edit_post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="36" selection-start-line="36" selection-end-line="36" selection-end-column="74" />
+        <state relative-caret-position="874">
+          <caret line="38" column="77" selection-start-line="38" selection-start-column="77" selection-end-line="38" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/view_all_posts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
         </state>
       </provider>
     </entry>
