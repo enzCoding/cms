@@ -50,7 +50,17 @@
         <!-- Blog Comments-->
             <?php
                 if(isset($_POST['create_comment'])) {
-                    echo $_POST['comment_author'];
+                    $the_post_id = $_GET['p_id'];
+                    $comment_author = $_POST['comment_author'];
+                    $comment_email = $_POST['comment_email'];
+                    $comment_content = $_POST['comment_content'];
+
+                    $query = "INSERT INTO comments (comment_post_id, comment_author, comment_email, comment_content, comment_status, comment_date)";
+                    $query .= "VALUES ($the_post_id, '{$comment_author}', '{$comment_email}', '{$comment_content}', 'unapprove', now())";
+                    $create_comment_query = mysqli_query($connection,$query);
+                    if(!$create_comment_query) {
+                        die("QUERY FAILED" . mysqli_error($connection));
+                    }
                 }
             ?>
             <!-- Comment form-->
@@ -67,7 +77,7 @@
                     </div>
                     <div class="form-group">
                         <label for="comment">Comment</label>
-                        <textarea class="form-control" rows="3"></textarea>
+                        <textarea name="comment_content" class="form-control" rows="3"></textarea>
                     </div>
                     <button type="submit" name="create_comment" class="btn btn-primary">Submit</button>
                 </form>
