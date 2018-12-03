@@ -45,7 +45,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="3" />
-          <entry key="php" value="124" />
+          <entry key="php" value="126" />
           <entry key="png" value="1" />
         </counts>
       </usages-collector>
@@ -53,21 +53,21 @@
         <counts>
           <entry key="HTML" value="3" />
           <entry key="Image" value="1" />
-          <entry key="PHP" value="124" />
+          <entry key="PHP" value="126" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="JavaScript Console" value="18" />
           <entry key="html" value="29" />
-          <entry key="php" value="10241" />
+          <entry key="php" value="10396" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="35" />
           <entry key="JavaScript" value="18" />
-          <entry key="PHP" value="10234" />
+          <entry key="PHP" value="10389" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
@@ -75,11 +75,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="-299">
               <caret line="59" column="68" selection-start-line="59" selection-start-column="68" selection-end-line="59" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/includes/view_all_comments.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -127,8 +136,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/admin/comments.php" />
         <option value="$PROJECT_DIR$/admin/includes/admin_navigation.php" />
-        <option value="$PROJECT_DIR$/admin/includes/view_all_comments.php" />
         <option value="$PROJECT_DIR$/post.php" />
+        <option value="$PROJECT_DIR$/admin/includes/view_all_comments.php" />
       </list>
     </option>
   </component>
@@ -275,18 +284,18 @@
       <workItem from="1541148769842" duration="813000" />
       <workItem from="1541384812214" duration="4389000" />
       <workItem from="1541557474144" duration="657000" />
-      <workItem from="1543800991200" duration="5153000" />
+      <workItem from="1543800991200" duration="6583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71210000" />
+    <option name="totallyTimeSpent" value="72640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="111" y="13" width="1654" height="1001" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15244667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15244667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -386,13 +395,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/category_function.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
@@ -484,13 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/view_all_comments.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="58" column="66" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/posts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -498,10 +493,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="-299">
           <caret line="59" column="68" selection-start-line="59" selection-start-column="68" selection-end-line="59" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/view_all_comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
         </state>
       </provider>
     </entry>
