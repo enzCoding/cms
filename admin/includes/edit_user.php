@@ -68,16 +68,18 @@
         <input value="<?php echo $post_title?>" type="text" class="form-control" name="post_title">
     </div>
     <div class="form-group">
-        <select name="post_category_id" id="">
+        <label for="">Role</label>
+        <br>
+        <select name="user_role" id="">
             <?php
-                $query = "SELECT * FROM category";
-                $select_category = mysqli_query($connection,$query);
-                checkQuery($select_category);
-                while ($row = mysqli_fetch_assoc($select_category)) {
-                    $cat_id = $row['cat_id'];
-                    $cat_title = $row['cat_title'];
-                    echo "<option value='{$cat_id}'>{$cat_title}</option>";
-                }
+            $query = "SELECT * FROM users";
+            $select_user_role = mysqli_query($connection,$query);
+            checkQuery($select_user_role);
+            while ($row = mysqli_fetch_assoc($select_user_role)) {
+                $user_id = $row['user_id'];
+                $user_role = $row['user_role'];
+                echo "<option value='$user_id'>{$user_role}</option>";
+            }
             ?>
         </select>
     </div>
