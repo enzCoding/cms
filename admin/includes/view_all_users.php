@@ -63,7 +63,7 @@
         echo "<td>$user_role</td>";
         echo "<td><a href='comments.php?approve='>Approve</a></td>";
         echo "<td><a href='comments.php?unapprove='>Unapprove</a></td>";
-        echo "<td><a href='comments.php?delete='>DELETE</a></td>";
+        echo "<td><a href='users.php?delete={$user_id}'>DELETE</a></td>";
         echo "</tr>";
     }
     ?>
@@ -71,24 +71,24 @@
     </tbody>
 </table>
 <?php
-    if(isset($_GET['approve'])) {
-        $the_comment_id = $_GET['approve'];
-        $query = "UPDATE comments SET comment_status = 'approve' WHERE comment_id = {$the_comment_id} ";
-        $approve_comment_query = mysqli_query($connection,$query);
-        header("Location: comments.php");
-    }
-
-    if(isset($_GET['unapprove'])) {
-        $the_comment_id = $_GET['unapprove'];
-        $query = "UPDATE comments SET comment_status = 'unapprove' WHERE comment_id = {$the_comment_id} ";
-        $unapprove_comment_query = mysqli_query($connection,$query);
-        header("Location: comments.php");
-    }
+//    if(isset($_GET['approve'])) {
+//        $the_comment_id = $_GET['approve'];
+//        $query = "UPDATE comments SET comment_status = 'approve' WHERE comment_id = {$the_comment_id} ";
+//        $approve_comment_query = mysqli_query($connection,$query);
+//        header("Location: comments.php");
+//    }
+//
+//    if(isset($_GET['unapprove'])) {
+//        $the_comment_id = $_GET['unapprove'];
+//        $query = "UPDATE comments SET comment_status = 'unapprove' WHERE comment_id = {$the_comment_id} ";
+//        $unapprove_comment_query = mysqli_query($connection,$query);
+//        header("Location: comments.php");
+//    }
 
     if(isset($_GET['delete'])) {
-        $the_comment_id = $_GET['delete'];
-        $query = "DELETE FROM comments WHERE comment_id = {$the_comment_id} ";
-        $delete_comment_query = mysqli_query($connection,$query);
-        header("Location: comments.php");
+        $the_user_id = $_GET['delete'];
+        $query = "DELETE FROM users WHERE user_id = {$the_user_id} ";
+        $delete_user_query = mysqli_query($connection,$query);
+        header("Location: users.php");
     }
 ?>
